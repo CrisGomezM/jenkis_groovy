@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 // Jenkinsfile (Declarative Pipeline)
 pipeline {
-  agent {label ubuntu_slave}
+  agent {label 'ubuntu_slave'}
   stages {
     stage('Build') {
         steps {
